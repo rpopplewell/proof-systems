@@ -58,7 +58,7 @@ If the verification fails, then Victor knows that Peggy was trying to trick him,
 Instead of a cryptographic hash function, we can use elliptic curve scalar multiplication to construct a commitment scheme.  Here scalar multiplication
 is used like a one-way function based on the hardness assumption of the elliptic curve discrete logarithm problem (ECDLP).  Suppose we have
 
-- $\mathbb{F}_p$ a prime order field, with $p$ being large (e.g. something like $2^{256}$).
+- $\mathbb{F}_p$ a prime order field, with $p$ being large (e.g. something like $2^{256}+1$).
 - Publicly agreed generator point $G$ over an elliptic curve $E(\mathbb{F}_p)$
 - Another publicly agreed curve point $H$ for which no one knows the discrete logarithm
 
